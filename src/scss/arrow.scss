@@ -9,6 +9,15 @@ $color: #009bd0;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  white-space: nowrap;
+
+  div {
+    display: inline;
+  }
+
+  br {
+    display: none;
+  }
 
   &:focus {
     outline: none;
