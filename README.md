@@ -17,3 +17,5 @@
 [example3 / пример3](http://petepearl.ru/features/css-trick-borders/examples/example-3.html)
 
 [example4 / пример4](http://petepearl.ru/features/css-trick-borders/examples/example-4.html)
+
+[example5 / пример5](http://petepearl.ru/features/css-trick-borders/examples/example-5.html)
