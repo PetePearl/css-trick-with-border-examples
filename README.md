@@ -1,6 +1,6 @@
 # Css trick with border
 
-Примеры нестандартного применение hover-а / Css trick with border, examples
+Примеры нестандартного применение border-а / Css trick with border, examples
 
 (Во всех примерах контент можно отредактировать и посмотреть как ведет себя блок)
 
