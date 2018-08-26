@@ -1,0 +1,67 @@
+$color: #009bd0;
+.ribbon {
+  color: #ffffff;
+  line-height: 30px;
+  position: relative;
+
+  &__text {
+    position: relative;
+    padding: 10px 60px;
+    background: $color;
+    z-index: 2;
+
+    br {
+      display: none;
+    }
+
+    div {
+      display: inline;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:before {
+      border-color: darken($color, 15) darken($color, 15) transparent transparent;
+      border-width: 5px;
+      position: absolute;
+      display: block;
+      border-style: solid;
+      bottom: -10px;
+      left: 0;
+      content: '';
+    }
+
+    &:after {
+      border-color: darken($color, 15) transparent transparent darken($color, 15);
+      border-width: 5px;
+      position: absolute;
+      display: block;
+      border-style: solid;
+      bottom: -10px;
+      right: 0;
+      content: '';
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: -40px;
+    border: 25px solid darken($color, 5);
+    border-left-color: transparent;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: -40px;
+    border: 25px solid darken($color, 5);
+    border-right-color: transparent;
+  }
+}
