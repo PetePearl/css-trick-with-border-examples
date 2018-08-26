@@ -8,7 +8,7 @@ $color: #009bd0;
   color: #ffffff;
 
   &__title {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 300;
   }
@@ -19,20 +19,33 @@ $color: #009bd0;
     margin: 5px 0 0;
   }
 
-  &__angle {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
+  &--angle {
     &:after {
       content: '';
       display: block;
       width: 0;
-      height: 1000px;
+      height: 100%;
+      position: absolute;
+      left: 100%;
+      top: 0;
+      box-sizing: border-box;
       border-top: 30px solid transparent;
       border-left: 30px solid $color;
     }
   }
 
+  &--angle2 {
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: 15px solid;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
 }
