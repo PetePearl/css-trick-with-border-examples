@@ -1,0 +1,131 @@
+.trapeze {
+  position: relative;
+  color: #fff;
+  width: 100%;
+
+  &__bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    overflow: hidden;
+
+    background: url("../images/trapeze.jpg") no-repeat fixed center top;
+    background-size: cover;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 45%;
+      left: 0;
+      height: 1px;
+      border-top: 1200px solid #000;
+      border-right: 400px solid transparent;
+      opacity: .8;
+    }
+  }
+
+  &__body {
+    width: 1000px;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    width: 47%;
+    padding: 80px 30px 70px 0;
+  }
+
+  &__title {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 55px;
+    margin: 0 0 5px;
+    text-align: left;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 26px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0 0 40px;
+  }
+
+  &__button {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+
+    content: none;
+
+    &:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .trapeze {
+    &__bg {
+      background-position: center top;
+      &:after {
+        width: 70%;
+      }
+    }
+
+    &__content {
+      padding: 80px 10px;
+      width:75%;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .trapeze {
+  &__bg {
+    background-position: center top;
+    &:after {
+      border: none;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: auto;
+
+      background: #000;
+    }
+  }
+
+    &__content {
+      width: auto;
+    }
+  }
+}
+
+
