@@ -9,6 +9,9 @@
 ![windows hover](http://petepearl.ru/features/css-trick-borders/examples/images/example-3.jpg "windows hover")
 
 [example1 / пример1](http://petepearl.ru/features/css-trick-borders/examples/example-1.html)
+
 [example2 / пример2](http://petepearl.ru/features/css-trick-borders/examples/example-2.html)
+
 [example3 / пример3](http://petepearl.ru/features/css-trick-borders/examples/example-3.html)
-[example3 / пример3](http://petepearl.ru/features/css-trick-borders/examples/example-4.html)
+
+[example4 / пример4](http://petepearl.ru/features/css-trick-borders/examples/example-4.html)
