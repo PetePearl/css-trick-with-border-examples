@@ -2,6 +2,8 @@
 
 Примеры нестандартного применение hover-а / Css trick with border, examples
 
+(Во всех примерах контент можно отредактировать и посмотреть как ведет себя блок)
+
 ![windows hover](http://petepearl.ru/features/css-trick-borders/examples/images/example-1.jpg "windows hover")
 
 ![windows hover](http://petepearl.ru/features/css-trick-borders/examples/images/example-2.jpg "windows hover")
